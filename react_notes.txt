@@ -1,0 +1,67 @@
+██████╗ ███████╗ █████╗  ██████╗████████╗
+██╔══██╗██╔════╝██╔══██╗██╔════╝╚══██╔══╝
+██████╔╝█████╗  ███████║██║        ██║   
+██╔══██╗██╔══╝  ██╔══██║██║        ██║   
+██║  ██║███████╗██║  ██║╚██████╗   ██║   
+╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝   ╚═╝   
+                                         
+
+What is react? 
+=============
+
+- React is a Javascript Framework / Library for Building user interfaces. It was created by Facebook 
+- Websites/UI are looked at in terms of components 
+- React is currently the most popular out of the major front end frameworks
+
+Why React? 
+==========
+
+- React allows us to build very dynamic and interactive websites and users interfaces 
+- Very fast, especially with new compiler
+- There is a huge ecosystem from Next.Js to React Native. 
+- Best Framework to learn to get a job. 
+
+What are components? 
+====================
+
+- Re-used piece of code that can be used to build element on the page 
+- Allows us to break down complex UIs, which makes them easier to main and scale
+- Components can get props passed in and can hold their own state
+
+State: 
+======
+
+- State represents the data that a component manages internally 
+- This could be form input data, fetched data, UI-Related data like if a model is open/close
+- There is also global state, which relates to the app as a whole and not a single component
+
+Hooks:
+=====
+
+Allows us to use state and other React Features within functional components 
+
+- useState
+- useEffect
+- useRef 
+- useReducer 
+
+JSX - Javascript Syntax Extension 
+=================================
+
+An HTML like syntax within JavaScript (components)
+
+SPA, SSR and SSG 
+================
+
+- A Single page App - Load a single HTML file and JavaScript Loads the entire UI including the routes
+- Server Side Rendered - Server sends fully rendered page to client. You can fetch data and load it as well. 
+- Static Site Generation - React generates a static HTML files at build time. These are very fast. 
+
+Vite: 
+==== 
+
+- Vite is super fast front-end toolkit that can be used for all kinds of JS Projects including React 
+- Its built on top of ESBuild, which is a very fast JS Bundler
+- Fast Development server with hot-reload
+- Installed with npm create vite@latest
+
